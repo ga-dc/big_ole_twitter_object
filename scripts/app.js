@@ -119,7 +119,7 @@ console.log("Which hashtags, if any are used?");
 console.log(tweet.entities.hashtags[0].text);
 console.log("What is the name of the person who tweeted this?");
 console.log(tweet.user.name);
-console.log("Do you follow them?");
+console.log("Does the the person viewing the tweet follow them?");
 console.log(tweet.user.following);
 console.log("What is the URL of their website?");
 console.log(tweet.user.url);

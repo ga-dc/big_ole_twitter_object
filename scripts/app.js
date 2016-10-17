@@ -108,18 +108,10 @@ var tweet = {
 
 
 console.log("Does this tweet have any favorites?");
-console.log(tweet.user.favourites_count);
 console.log("When was is created?");
-console.log(tweet.created_at);
 console.log("How many URL's does this tweet have?");
-console.log(tweet.entities["urls"].length);
 console.log("What is its short url?");
-console.log(tweet.entities.urls[0].url);
 console.log("Which hashtags, if any are used?");
-console.log(tweet.entities.hashtags[0].text);
 console.log("What is the name of the person who tweeted this?");
-console.log(tweet.user.name);
 console.log("Does the the person viewing the tweet follow them?");
-console.log(tweet.user.following);
 console.log("What is the URL of their website?");
-console.log(tweet.user.url);

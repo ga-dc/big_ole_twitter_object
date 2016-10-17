@@ -106,12 +106,4 @@ var tweet = {
   "in_reply_to_status_id": null
 };
 
-
-console.log("Does this tweet have any favorites?");
-console.log("When was is created?");
-console.log("How many URL's does this tweet have?");
-console.log("What is its short url?");
-console.log("Which hashtags, if any are used?");
-console.log("What is the name of the person who tweeted this?");
-console.log("Does the the person viewing the tweet follow them?");
-console.log("What is the URL of their website?");
+console.log( JSON.stringify(tweet, null, 2) );
